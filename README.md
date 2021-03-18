@@ -1,6 +1,6 @@
 # SportsWithHealthKit
 
-## 一个简单运用HealhKit的项目
+## 一个简单运用HealthKit的项目
 **请手动执行：**
 `pod install`
 
