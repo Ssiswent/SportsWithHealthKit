@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="115" id="KGk-i7-Jjw" customClass="INSTraceCell" customModule="HotBitCoin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="348" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aNt-ZB-01V" userLabel="ContentImgView">
+                        <rect key="frame" x="18" y="20.5" width="74" height="74"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="74" id="Jy5-3N-Z2O"/>
+                            <constraint firstAttribute="height" constant="74" id="R1I-gz-Q8c"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="国债期货全线下跌 10年期主力合约跌 0.51％、创月20日以来新低" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ppk-2A-WNU" userLabel="TitleLabel">
+                        <rect key="frame" x="102" y="20.5" width="228" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金融界网站6月3日讯 国内期货市场，国债 期货午盘全线下跌... " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xui-qu-o6o" userLabel="ContentLabel">
+                        <rect key="frame" x="102" y="61" width="228" height="33.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="aNt-ZB-01V" secondAttribute="bottom" constant="20.5" id="36b-V7-7vn"/>
+                    <constraint firstItem="aNt-ZB-01V" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="72q-UI-OhY"/>
+                    <constraint firstAttribute="trailing" secondItem="Ppk-2A-WNU" secondAttribute="trailing" constant="18" id="9ah-Ep-Dmb"/>
+                    <constraint firstItem="Xui-qu-o6o" firstAttribute="leading" secondItem="aNt-ZB-01V" secondAttribute="trailing" constant="10" id="VND-Fh-cQu"/>
+                    <constraint firstItem="Xui-qu-o6o" firstAttribute="bottom" secondItem="aNt-ZB-01V" secondAttribute="bottom" id="aoQ-eQ-g3k"/>
+                    <constraint firstItem="aNt-ZB-01V" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="18" id="iea-8f-eZA"/>
+                    <constraint firstAttribute="trailing" secondItem="Xui-qu-o6o" secondAttribute="trailing" constant="18" id="lbl-Xl-aTM"/>
+                    <constraint firstItem="aNt-ZB-01V" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20.5" id="pgj-eY-Hfr"/>
+                    <constraint firstItem="Ppk-2A-WNU" firstAttribute="top" secondItem="aNt-ZB-01V" secondAttribute="top" id="rDY-Q6-GFd"/>
+                    <constraint firstItem="Ppk-2A-WNU" firstAttribute="leading" secondItem="aNt-ZB-01V" secondAttribute="trailing" constant="10" id="yjc-HV-Ivh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentImgView" destination="aNt-ZB-01V" id="ed2-dT-MJy"/>
+                <outlet property="contentLabel" destination="Xui-qu-o6o" id="2Qd-KX-CDx"/>
+                <outlet property="titleLabel" destination="Ppk-2A-WNU" id="kh6-lD-ThY"/>
+            </connections>
+            <point key="canvasLocation" x="160.86956521739131" y="126.22767857142857"/>
+        </tableViewCell>
+    </objects>
+</document>

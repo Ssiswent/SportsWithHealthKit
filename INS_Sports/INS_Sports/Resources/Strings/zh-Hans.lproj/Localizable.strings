@@ -1,0 +1,98 @@
+/* 
+  Localizable.strings
+  MVVMForBitCoin
+
+  Created by apple on 2020/12/29.
+  
+*/
+
+//YZJ
+"search" = "搜索";
+"For you" = "专题";
+"Quick news" = "快讯";
+"Hot Books" = "热门书籍";
+"btn_new_group_home" = "btn_new_group_home_1";
+"Popular currencies" = "人气行情";
+"more" = "更多";
+"Breaking news" = "热门新闻";
+"Blockchain News" = "区块链新闻";
+"Squre" = "广场";
+"Following" = "关注";
+"Headlines" = "热题";
+"People" = "推荐关注";
+"Like" = "喜欢";
+"Comment" = "评论";
+"Details" = "详情";
+"Details of the report (required 10 words)" = "举报的详细信息（必填10个字";
+"Report Contents cannot be empty" = "举报内容不能为空";
+"Report" = "举报";
+"Publish dynanmics" = "发布动态";
+"Shield successfully" = "屏蔽成功";
+"Report successfully" = "举报成功";
+
+//LYG
+"My" = "我的";
+"About us" = "关于我们";
+"Help" = "反馈中心";
+"User agreement" = "用户协议";
+"Privacy policy" = "隐私政策";
+"Settings" = "设置";
+"Logout successfully" = "您已退出登录";
+"No cache temporarily" = "暂无缓存";
+"Clear cache successfully" = "成功清除缓存";
+"Please login with your new password" = "请用新密码重新登录";
+"Please login first" = "请先登录";
+"Up to date V0.2" = "已是最新 V0.2";
+"Edit profiles" = "编辑资料";
+"Save" = "保存";
+"Cancel" = "取消";
+"Confirm" = "确定";
+"Change avatar" = "修改头像";
+"Save successfully" = "保存成功";
+"Network error" = "网络错误";
+"Change nickname" = "修改昵称";
+"Change signature" = "修改签名";
+"History" = "浏览历史";
+"Clear" = "清除";
+"Following" = "我的关注";
+"Followers" = "我的粉丝";
+" followers" = " 粉丝";
+"Password" = "密码登录";
+"Verification" = "免密登录";
+"your phone number" = "你的手机号码";
+"password" = "密码";
+"Done" = "完成";
+"Please input password" = "请输入密码";
+"Please input the correct number" = "请输入正确手机号";
+"verification code" = "验证码";
+"get code" = "获取验证码";
+"Please input verification code" = "请输入验证码";
+"confirm password" = "确认密码";
+"Register" = "注册";
+"Change Password" = "修改密码";
+"Password mismatch" = "两次密码输入不一致";
+"Password length should be 6~16 - bit" = "密码长度需要在6到16位";
+"Change password successfully" = "成功修改密码";
+"Login successfully" = "登录成功";
+"Recommend" = "推荐";
+"Follow" = "关注";
+"Quotation" = "行情";
+"Hot news" = "热点新闻";
+"Home" = "首页";
+"Community" = "社区";
+"Mine" = "我的";
+"recommend" = "推荐";
+"follow" = "关注";
+"Send" = "发送";
+"Say something..." = "说点什么吧...";
+"All comments" = "全部评论";
+"Write something interesting..." = "写下点有趣的事情吧...";
+"Focus" = "关注";
+"Fans" = "粉丝";
+"Quotes" = "行情";
+"Quotations" = "行情";
+"News" = "资讯";
+"Hello" = "您好";
+"Click avatar to login" = "请点击头像登录或注册";
+"industry" = "行业动态";
+"news flash" = "新闻快讯";

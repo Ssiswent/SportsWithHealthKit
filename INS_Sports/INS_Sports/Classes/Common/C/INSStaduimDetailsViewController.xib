@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="INSStaduimDetailsViewController" customModule="INS_Sports" customModuleProvider="target">
+            <connections>
+                <outlet property="orderBtn" destination="9XZ-n2-oOB" id="8p3-2y-tgT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9XZ-n2-oOB" userLabel="OrderBtn">
+                    <rect key="frame" x="34" y="777" width="346" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="4o7-Wq-YpY"/>
+                        <constraint firstAttribute="width" constant="346" id="vma-BC-U17"/>
+                    </constraints>
+                    <state key="normal" image="btn_booknow_suspension"/>
+                    <connections>
+                        <action selector="orderBtnClicked:" destination="-1" eventType="touchUpInside" id="1OH-u7-IOu"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="9XZ-n2-oOB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Fmg-61-lXA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="9XZ-n2-oOB" secondAttribute="bottom" constant="10" id="qZC-Hk-dmh"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="120"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_booknow_suspension" width="345.5" height="75"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

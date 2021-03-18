@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  Futures_Remix
+//
+//  Created by Ssiswent on 2020/9/27.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "INS_Sports-Swift.h"
+
+
+#import <CommonCrypto/CommonDigest.h>
+
+#define CC_MD5_DIGEST_LENGTH    16          /* digest length in bytes */
+#define CC_MD5_BLOCK_BYTES      64          /* block size in bytes */
+#define CC_MD5_BLOCK_LONG       (CC_MD5_BLOCK_BYTES / sizeof(CC_LONG))
+
+#endif /* PrefixHeader_pch */

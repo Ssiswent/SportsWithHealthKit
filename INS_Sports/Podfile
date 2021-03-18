@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+platform :ios, '11.0'
+
+target 'INS_Sports' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for INS_Sports
+  pod 'CYLTabBarController/Lottie'
+  pod 'Alamofire', '~> 5.2'
+  pod 'SnapKit'
+  pod 'SDWebImage'
+  pod 'MJExtension'
+  pod 'MJRefresh','3.2.0'
+  pod 'SVProgressHUD'
+  pod 'JXSegmentedView'
+  pod 'ViewAnimator'
+  pod 'IQKeyboardManagerSwift'
+  pod 'YPNavigationBarTransition', '~> 2.0'
+  pod 'DateToolsSwift'
+  pod 'FSPagerView'
+  pod 'AnyImageKit'
+  pod 'SwiftEntryKit', '1.2.7'
+  
+  pod "Pastel"
+  
+end

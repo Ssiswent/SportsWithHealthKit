@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="INSLatestView" customModule="INS_Sports" customModuleProvider="target">
+            <connections>
+                <outlet property="confirmBtn" destination="xle-nN-4lM" id="6wL-K0-cay"/>
+                <outlet property="upToDateLabel" destination="yxj-ys-FjF" id="IWf-Qn-5eU"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Hyg-vP-o0i"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="350"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_box_update" translatesAutoresizingMaskIntoConstraints="NO" id="AA6-bG-Wlj">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="350"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新版特性" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxj-ys-FjF">
+                    <rect key="frame" x="23" y="178" width="61.5" height="18"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" red="0.15294379" green="0.152936399" blue="0.15294143560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xle-nN-4lM" userLabel="ConfirmBtn">
+                    <rect key="frame" x="30" y="290" width="190" height="40"/>
+                    <color key="backgroundColor" red="0.35796126719999999" green="0.3851898909" blue="0.77650815250000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="190" id="5cy-Ou-Ch3"/>
+                        <constraint firstAttribute="height" constant="40" id="hB1-Dy-ZhL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <state key="normal" title="确定"/>
+                    <connections>
+                        <action selector="confirmBtnClicked:" destination="-1" eventType="touchUpInside" id="eVt-jS-le8"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.优化用户界面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ano-O7-IC4">
+                    <rect key="frame" x="23" y="216" width="83" height="15"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                    <color key="textColor" red="0.37647601959999999" green="0.37646073099999999" blue="0.37647110220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="AA6-bG-Wlj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0HI-MX-ZEH"/>
+                <constraint firstAttribute="trailing" secondItem="AA6-bG-Wlj" secondAttribute="trailing" id="3nH-WW-59P"/>
+                <constraint firstAttribute="bottom" secondItem="AA6-bG-Wlj" secondAttribute="bottom" id="7kB-H6-Cmf"/>
+                <constraint firstItem="yxj-ys-FjF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="23" id="A7o-cJ-bcs"/>
+                <constraint firstItem="AA6-bG-Wlj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ghu-QZ-xtb"/>
+                <constraint firstItem="Ano-O7-IC4" firstAttribute="leading" secondItem="yxj-ys-FjF" secondAttribute="leading" id="NkE-ew-r6A"/>
+                <constraint firstItem="yxj-ys-FjF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="178" id="Npa-3e-htr"/>
+                <constraint firstItem="Ano-O7-IC4" firstAttribute="top" secondItem="yxj-ys-FjF" secondAttribute="bottom" constant="20" id="R8A-AK-V0o"/>
+                <constraint firstAttribute="bottom" secondItem="xle-nN-4lM" secondAttribute="bottom" constant="20" id="SSk-96-xpk"/>
+                <constraint firstItem="xle-nN-4lM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="k5G-lF-Ngz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="92.753623188405811" y="-33.482142857142854"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_box_update" width="250" height="350"/>
+    </resources>
+</document>
